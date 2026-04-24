@@ -11,6 +11,8 @@
 # Personal notes:
 #   - Increased coarse_count from 500 to 1000 to better approximate the top 30% of NYSE/AMEX universe
 #     as described in the original paper. Larger universe should improve decile separation.
+#   - Changed history lookback multiplier from 30 to 35 days per month to reduce gaps in monthly
+#     price data caused by holidays and short months.
 
 from AlgorithmImports import *
 
@@ -65,15 +67,9 @@ class Month12CycleinCrossSectionofStocksReturns(QCAlgorithm):
                 continue
             
             self.data[symbol] = SymbolData(symbol, self.period)
-            history = self.History(symbol, self.period*30, Resolution.Daily)
+            # Use 35 trading days per month to account for holidays and short months
+            history = self.History(symbol, self.period*35, Resolution.Daily)
             if history.empty:
                 self.Log(f"Not enough data for {symbol} yet.")
                 continue
-            closes = history.loc[symbol].close
-            
-            closes_len = len(closes.keys())
-            # Find monthly closes.
-            for index, time_close in enumerate(closes.iteritems()):
-                # index out of bounds check.
-                if index + 1 < closes_len:
-                   
+            closes = history.loc
