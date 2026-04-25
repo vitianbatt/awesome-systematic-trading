@@ -18,6 +18,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - And also some [blogs](#blogs) and [courses](#courses)
 
 > **Personal note:** I forked this repo primarily to track resources related to equity and crypto strategies. The books section and machine learning libraries are especially useful for my own research. My current focus is on momentum and mean-reversion strategies in crypto markets.
+>
+> **Reading list:** Currently working through *Advances in Financial Machine Learning* (Lopez de Prado) and *Algorithmic Trading* (Ernie Chan). Planning to backtest a few crypto momentum strategies using Freqtrade once finished.
 
 <div align="center" style="margin-bottom: 50px; margin-top: 50px;">
   <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
@@ -67,5 +69,4 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Coding](#coding)
   - [Crypto](#crypto)
   - [General](#general-1)
-  - [High Frequency Trading](#high-frequency-trading)
-  - [Machine Learning](#machine-learnin
+  - [High Fr
