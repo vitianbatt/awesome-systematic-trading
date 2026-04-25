@@ -17,7 +17,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - [23 videos](#videos) and interviews
 - And also some [blogs](#blogs) and [courses](#courses)
 
-> **Personal note:** I forked this repo primarily to track resources related to equity and crypto strategies. The books section and machine learning libraries are especially useful for my own research.
+> **Personal note:** I forked this repo primarily to track resources related to equity and crypto strategies. The books section and machine learning libraries are especially useful for my own research. My current focus is on momentum and mean-reversion strategies in crypto markets.
 
 <div align="center" style="margin-bottom: 50px; margin-top: 50px;">
   <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
@@ -68,13 +68,4 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Crypto](#crypto)
   - [General](#general-1)
   - [High Frequency Trading](#high-frequency-trading)
-  - [Machine Learning](#machine-learning-1)
-- [Videos](#videos)
-- [Blogs](#blogs)
-- [Courses](#courses)
-</details>
-
-<!-- omit in toc -->
-> ### How can I help?
-> You can help by submitting an issue with suggestions and by sharing on Twitter:
->
+  - [Machine Learning](#machine-learnin
